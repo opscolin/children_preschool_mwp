@@ -533,7 +533,7 @@ export default function PoetryRecitation({ settings, updateSettings }: PoetryRec
                     >
                       <div>
                         <span className="text-xs font-bold text-gray-800">{poem.title}</span>
-                        <span className="text-[9px] text-gray-400 ml-1.5">[{poem.author}]</span>
+                        <span className="text-[9px] text-gray-400 ml-1.5">[{poem.dynasty} · {poem.author}]</span>
                       </div>
 
                       <div className="flex items-center space-x-2">
